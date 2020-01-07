@@ -8,8 +8,8 @@ public class OpenCloseTest {
 		
 		ICourse javaDiscountCourse = new JavaDiscountCourse(1,"java课程",100.00);
 		System.out.println(javaCourse.getPrice());
-		System.out.println(javaDiscountCourse.getPrice());
-		
+		//System.out.println(javaDiscountCourse.getPrice());
+		System.out.println(((JavaDiscountCourse)javaDiscountCourse).getDiscountPrice());
 		
 	}
 }

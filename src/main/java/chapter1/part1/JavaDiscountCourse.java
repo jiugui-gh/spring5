@@ -10,8 +10,12 @@ public class JavaDiscountCourse extends JavaCourse {
 	public Double getOriginPrice() {
 		return super.getPrice();
 	}
-
-	public Double getPrice() {
+	// 覆盖了父类的非抽象方法   违反了里氏替换原则
+	/*public Double getPrice() {
+		return super.getPrice() * 0.61;
+	}*/
+	
+	public Double getDiscountPrice() {
 		return super.getPrice() * 0.61;
 	}
 }
