@@ -22,5 +22,4 @@ public class Teacher implements Observer {
         System.out.println(name + "老师，你好！您收到了一个来自" + gper.getName() + "的提问，希望您解答，内容如下" );
         System.out.println("提问者" + question.getUserName() + ",内容：" + question.getContent());
     }
-
 }
