@@ -9,11 +9,11 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <!-- <servlet>
+  <servlet>
     <description></description>
-    <display-name>GPDispatcherServlet</display-name>
-    <servlet-name>GPDispatcherServlet</servlet-name>
-    <servlet-class>chapter7.mvcframework.v1.servlet.GPDispatcherServlet</servlet-class>
+    <display-name>GPDispatcherServlet2</display-name>
+    <servlet-name>GPDispatcherServlet2</servlet-name>
+    <servlet-class>chapter7.mvcframework.v1.servlet.GPDispatcherServlet2</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
       <param-value>application.properties</param-value>
@@ -21,22 +21,17 @@
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>GPDispatcherServlet</servlet-name>
+    <servlet-name>GPDispatcherServlet2</servlet-name>
     <url-pattern>/*</url-pattern>
-  </servlet-mapping> -->
+  </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>GPDispatcherServlet2</display-name>
-    <servlet-name>GPDispatcherServlet2</servlet-name>
-    <servlet-class>chapter7.mvcframework.v1.servlet.GPDispatcherServlet2</servlet-class>
-     <init-param>
-      <param-name>contextConfigLocation</param-name>
-      <param-value>application.properties</param-value>
-    </init-param>
-    <load-on-startup>1</load-on-startup>
+    <display-name>GPDispatcherServlet3</display-name>
+    <servlet-name>GPDispatcherServlet3</servlet-name>
+    <servlet-class>chapter7.mvcframework.v1.servlet.GPDispatcherServlet3</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>GPDispatcherServlet2</servlet-name>
-    <url-pattern>/*</url-pattern>
+    <servlet-name>GPDispatcherServlet3</servlet-name>
+    <url-pattern>/GPDispatcherServlet3</url-pattern>
   </servlet-mapping>
 </web-app>
